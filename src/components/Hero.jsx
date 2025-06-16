@@ -33,7 +33,11 @@ export default function Hero() {
           </p>
           <div className="flex items-center space-x-4 mb-6">
             <a href="https://github.com/AagoshRajSri" target="_blank">
-              <img src="/github.png" alt="GitHub" className="w-11 h-11" />
+              <img
+                src={`${import.meta.env.BASE_URL}git.png`}
+                alt="GitHub"
+                className="w-11 h-11"
+              />
             </a>
             {/* <a href="#">
               <img src="/facebook.png" alt="Facebook" className="w-11 h-11" />
@@ -42,7 +46,11 @@ export default function Hero() {
               href="https://www.linkedin.com/in/aagoshrajsrivastava/"
               target="_blank"
             >
-              <img src="/linkedin.png" alt="LinkedIn" className="w-11 h-11" />
+              <img
+                src={`${import.meta.env.BASE_URL}linked.png`}
+                alt="LinkedIn"
+                className="w-11 h-11"
+              />
             </a>
 
             <a
@@ -51,7 +59,11 @@ export default function Hero() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="/mail.png" alt="Email" className="w-9 h-9" />
+              <img
+                src={`${import.meta.env.BASE_URL}email.png`}
+                alt="Email"
+                className="w-9 h-9"
+              />
             </a>
           </div>
           <a href="/myresume.pdf" download>
@@ -66,7 +78,7 @@ export default function Hero() {
           className="flex-1 flex justify-center md:justify-end mt-0"
         >
           <img
-            src="/imghero.png"
+            src={`${import.meta.env.BASE_URL}heroimg.png`}
             alt="Hero"
             className="w-[250px] h-[300px] sm:w-[480px] md:h-[485px] sm:h-[400px] object-cover rounded-lg levitate"
           />

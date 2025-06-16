@@ -58,7 +58,7 @@ export default function Skills() {
 
       {/* Left Image */}
       <img
-        src="./imghero.png"
+        src={`${import.meta.env.BASE_URL}heroimg.png`}
         alt="Left Picture"
         className="absolute z-10 left-2 top-2 sm:top-32 transform -rotate-12 w-24 h-auto sm:w-32 opacity-70"
       />
@@ -102,7 +102,7 @@ export default function Skills() {
 
       {/* Right Image */}
       <img
-        src="./imghero.png"
+        src={`${import.meta.env.BASE_URL}heroimg.png`}
         alt="Right Picture"
         className="absolute z-10 right-2 top-2 sm:right-16 sm:top-32 transform rotate-12 w-24 h-auto sm:w-32 opacity-70"
       />

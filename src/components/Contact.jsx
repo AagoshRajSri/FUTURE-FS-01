@@ -49,7 +49,7 @@ export default function Contact() {
         <aside className="w-full md:w-1/2 relative flex justify-center items-center">
           <div className="absolute z-0 w-[300px] sm:w-[400px] h-[300px] sm:h-[400px] rounded-full bg-gradient-to-r from-[#6d2897] via-[#8e6cf5] to-[#bb61c5] shadow-[0_0_70px_rgba(182,0,182,0.7)] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" />
           <img
-            src="./imghero.png"
+            src={`${import.meta.env.BASE_URL}heroimg.png`}
             alt="Contact Illustration"
             className="h-[250px] sm:h-[400px] md:h-[485px] w-[300px] sm:w-[480px] object-cover relative z-10 levitate"
           />
